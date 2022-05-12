@@ -24,8 +24,9 @@ export const MenuItems = [
     },
 
     {
-        title: 'Mobile',
+        title: 'Contact Me',
         url: '/',
-        className: 'nav-links-mobile'
+        /*className: 'nav-links-mobile'*/
+        className: 'nav-links'
     }
 ]

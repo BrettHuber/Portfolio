@@ -34,7 +34,6 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
-                <Button>Contact Me</Button>
             </nav>
         )
     }
@@ -46,6 +45,7 @@ export default Navbar
 <FontAwesomeIcon icon="fa-solid fa-ghost" />
     //<FontAwesomeIcon icon={faGhost} />
 
-    <Button>Mobile</Button>
+                    <Button>Contact Me</Button>
+
 
 */
