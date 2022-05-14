@@ -8,8 +8,8 @@ video {
 }
 
 .home-video {
-    background: transparent;
-    /*background: url('') center center/cover no-repeat;*/
+    /*background: transparent;*/
+    background: url('cyber-home-page.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
