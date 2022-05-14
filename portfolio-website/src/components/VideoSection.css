@@ -1,0 +1,30 @@
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.home-video {
+    background: transparent;
+    /*background: url('') center center/cover no-repeat;*/
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    /*box-shadow: inset 0 0 0 100px rgba(0,0,0,0.2);*/
+    object-fit: contain;
+}
+
+.box {
+    align-items: center;
+    vertical-align: middle;
+    padding: 10px;
+    /*transform: translate(-50%, 150%);*/
+    box-shadow: inset 0 0 0 100px rgba(0,0,0,0.2);
+
+}

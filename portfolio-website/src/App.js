@@ -2,11 +2,14 @@ import logo from './logo.svg';
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Home from './components/Webpages/Home';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Home />
     </div>
   );
 }

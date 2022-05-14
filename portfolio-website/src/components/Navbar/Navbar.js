@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGhost } from '@fortawesome/free-solid-svg-icons'
 import './Navbar.css'
-import { Button } from "../Button"
+import { Button } from "../Button/Button"
 
 //const element = <FontAwesomeIcon icon={faGhost} />
 //ReactDOM.render(element, document.body)
@@ -17,7 +17,7 @@ class Navbar extends Component {
     }
 
     render() {
-        return(
+        return (
             <nav className = 'NavbarItems'>
                 <h1 className = 'navbar-logo'>PH4NT0M</h1>
                 <div className = 'menu-icon' onClick = {this.handleClick}>
@@ -35,7 +35,7 @@ class Navbar extends Component {
                     })}
                 </ul>
             </nav>
-        )
+        );
     }
 }
 
