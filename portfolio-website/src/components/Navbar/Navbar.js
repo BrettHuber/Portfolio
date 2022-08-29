@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { MenuItems } from "./MenuItems"
 import ReactDOM from 'react-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGhost } from '@fortawesome/free-solid-svg-icons'
 import './Navbar.css'
 import { Button } from "../Button/Button"
 
@@ -19,6 +17,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav className = 'NavbarItems'>
+                <img src = ''></img>
                 <h1 className = 'navbar-logo'>Brett Huber</h1>
                 <div className = 'menu-icon' onClick = {this.handleClick}>
                     <i className= {this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
@@ -40,12 +39,3 @@ class Navbar extends Component {
 }
 
 export default Navbar
-
-/*
-<FontAwesomeIcon icon="fa-solid fa-ghost" />
-    //<FontAwesomeIcon icon={faGhost} />
-
-                    <Button>Contact Me</Button>
-
-
-*/

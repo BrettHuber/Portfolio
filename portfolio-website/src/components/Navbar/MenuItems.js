@@ -6,7 +6,7 @@ export const MenuItems = [
     },
 
     {
-        title: 'About Me',
+        title: 'About',
         url: '/',
         className: 'nav-links'
     },
@@ -24,7 +24,7 @@ export const MenuItems = [
     },
 
     {
-        title: 'Contact Me',
+        title: 'Contact',
         url: '/',
         /*className: 'nav-links-mobile'*/
         className: 'nav-links'
