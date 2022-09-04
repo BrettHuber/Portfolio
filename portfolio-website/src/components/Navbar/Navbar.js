@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom'
 import './Navbar.css'
 import { Button } from "../Button/Button"
 
-//const element = <FontAwesomeIcon icon={faGhost} />
 //ReactDOM.render(element, document.body)
 
 class Navbar extends Component {
