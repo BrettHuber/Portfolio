@@ -1,0 +1,23 @@
+.Footer {
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+    margin-top: 0px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;    
+}
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 20px;
+    list-style: none;
+    text-align: center;
+    color: white;
+    /* width: 70vw; */
+    justify-content: end;
+    margin-right: 2rem;
+}
