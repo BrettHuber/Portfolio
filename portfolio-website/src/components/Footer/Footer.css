@@ -20,4 +20,30 @@
     /* width: 70vw; */
     justify-content: end;
     margin-right: 2rem;
+    text-decoration: none; 
+
+}
+
+.footer-icons {
+    padding-right: 15px;
+    width: 5%   
+}
+
+@media screen and (max-width: 960px) {
+    .Footer {
+        position: relative;
+    }
+
+    /*.footer-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        grid-gap: 0px;
+        height: 430px;
+        position: absolute;
+        top: 80px;
+        left: -200%;
+        opacity: 1; 
+        transition: all 0.5s ease;
+    }*/
 }

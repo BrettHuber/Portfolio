@@ -17,8 +17,9 @@ class Footer extends Component {
                     {ContactItems.map((item, index) => {
                         return (
                             <li key = {index}>
-                                <img class = "footer-icons" src = {item.icon}></img>
-                                <a className = {item.className} href = {item.url} target="_blank">
+                                {/* <img class = "footer-icons" src = {item.icon} alt = {item.title + " logo"}></img> */}
+                                <a className = {item.className} href = {item.url} target = "_blank">
+                                    <img class = "footer-icons" src = {item.icon} alt = {item.title + " logo"}></img>
                                     {item.display}
                                 </a>
                             </li>

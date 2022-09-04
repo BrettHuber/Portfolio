@@ -1,7 +1,7 @@
 export const ContactItems = [
     {
         title: 'Email',
-        url: '/',
+        url: 'mailto:brettahuber@gmail.com',
         display: 'brettahuber@gmail.com',
         icon: 'images/gmail-icon.png',
         className: 'contact-links'
@@ -10,7 +10,7 @@ export const ContactItems = [
     {
         title: 'Phone',
         display: '+1 (973) 256-8278',
-        url: '/',
+        url: 'tel:9733568278',
         icon: 'images/phone-icon.png',
         className: 'contact-links'
     },
