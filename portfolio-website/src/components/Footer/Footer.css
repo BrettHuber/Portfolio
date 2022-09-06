@@ -23,6 +23,9 @@
     text-decoration: none; 
 
 }
+.contact-links {
+    color: white;
+}
 
 .footer-icons {
     padding-right: 15px;
@@ -31,7 +34,18 @@
 
 @media screen and (max-width: 960px) {
     .Footer {
+        color: white;
+
         position: relative;
+    }
+
+    .contact-links {
+        color: white;
+        text-decoration: none;
+    }
+
+    .a {
+        color: white;
     }
 
     /*.footer-menu {
