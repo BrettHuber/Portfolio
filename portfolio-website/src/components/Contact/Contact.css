@@ -4,7 +4,7 @@
     max-width: 50%;
     margin: 20px auto;
     vertical-align: middle;
-    bottom:10;
+    height: calc(100vh - 160px);
   }
 
   .label {
