@@ -2,13 +2,24 @@ import { Component } from 'react';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import '../../App.css';
 import './Contact.css'
-import Swal from 'sweetalert2';
+import swal from 'sweetalert2';
 import emailjs from 'emailjs-com';
 class Contact extends Component {
+
+handleSubmit = async (event) => {
+    event.preventDefault();
+    swal({
+      title: "Email Submitted",
+      text: "Message Sent!",
+      icon: "success",
+      button: "Close",
+    });
+};
+
 render() {
     return (
     <div className = "Contact-Form">
-      <Form>
+      <Form onSubmit={this.handleSubmit}>
         <h1>Contact Me</h1>
         <label className = "label" for = "Email">Email: </label>
         <Form.Field id = 'input-email' control = {Input} name = 'user_email' placeholder = 'Email...' required icon = 'mail' iconPosition = 'left'/>

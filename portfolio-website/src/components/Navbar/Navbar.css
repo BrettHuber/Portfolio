@@ -57,7 +57,7 @@
     display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 980px) {
     .NavbarItems {
         position: relative;
     }
@@ -76,7 +76,9 @@
     }
     .nav-menu.active {
         margin: 0px;
-        background: #22992f;
+        /* background: #22992f; */
+            background-image: linear-gradient(315deg, lightgreen 0%, #233329 74%);
+
         padding: 0px;
         left: 0px;
         opacity: 1;
@@ -94,7 +96,7 @@
 
         width: 100%; /*Change*/
         display: table;
-        border: 1px solid green; /*Change for checking spacing*/
+        border: 1px solid white; /*Change border color*/
     }
 
     .nav-links:hover {
