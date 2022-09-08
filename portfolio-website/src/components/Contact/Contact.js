@@ -2,18 +2,20 @@ import { Component } from 'react';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import '../../App.css';
 import './Contact.css'
-import swal from 'sweetalert2';
+import Swal from 'sweetalert2';
 import emailjs from 'emailjs-com';
 class Contact extends Component {
 
 handleSubmit = async (event) => {
     event.preventDefault();
-    swal({
+    Swal.fire({
       title: "Email Submitted",
       text: "Message Sent!",
       icon: "success",
       button: "Close",
     });
+
+    
 };
 
 render() {
