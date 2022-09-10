@@ -31,3 +31,10 @@
 .homeAttributes {
     color: white;
 }
+
+
+@media screen and (max-width: 990px) {
+    .headshot {
+        width: 80%;
+    }
+}
