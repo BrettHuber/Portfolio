@@ -34,65 +34,18 @@ render() {
     <div className = "Contact-Form">
       <Form onSubmit = {this.handleSubmit}>
         <h1>Contact Me</h1>
-        <table className = 'tableForm'>
-          <tr>
-            <td colSpan={2}>
               <label className = "label" for = "Name">Name: </label>
-            </td>
-          </tr>
-          <tr>
-            <td>
               <Form.Field className = "input" id = 'input-name-first' control = {Input} name = 'user_name_first' placeholder = 'Enter Your First Name *' required icon = 'user circle' iconPosition = 'left'/>
-            </td>
-            <td>
               <Form.Field className = "input" id = 'input-name-last' control = {Input} name = 'user_name_last' placeholder = 'Enter Your Last Name *' required icon = 'user circle' iconPosition = 'left'/>
-            </td>
-          </tr>
-          <tr>
-            <td>
               <label className = "label" for = "Email">Email: </label>
-            </td>
-            <td>
-              <label className = "label" for = "Phone">Phone Number: </label>
-            </td>
-          </tr>
-          <tr>
-            <td>
               <Form.Field className = "input" id = 'input-email' control = {Input} name = 'user_email' placeholder = 'Enter Your Email *' iconPosition = 'left' required/>
-            </td>
-            <td>
+              <label className = "label" for = "Phone">Phone Number: </label>
               <Form.Field className = "input" id = 'input-phone' control = {Input} name = 'user_phone' placeholder = 'Enter Your Phone Number *' iconPosition = 'left'/>
-            </td>    
-          </tr>
-          <tr>
-            <td colSpan={2}>
               <label className = "label" for = "Subject">Subject: </label>
-            </td>
-          </tr>
-          <tr>
-            <td colSpan={2}>
               <Form.Field className = "input" id = 'input-subject' control ={Input} name = 'user_subject' placeholder = 'Enter Subject Here *' required/>
-            </td>
-          </tr>
-          </table>
-
-          <table>
-          <tr>
-            <td colSpan={2}>
               <label className = "label" for = "Message">Message: </label>
-            </td>
-          </tr>
-          <tr>
-            <td colSpan={2}>
               <Form.Field className = "input" id = 'input-message' control ={TextArea} name = 'user_message' placeholder = 'Enter Message Here *' required/>
-            </td>
-          </tr>
-          <tr>
-            <td colSpan={2}>
-                <Button type = 'submit' color = 'green'>Send</Button>
-            </td>
-          </tr>
-        </table>
+              <Button type = 'submit' color = 'green'>Send</Button>
       </Form>
     </div>
   );

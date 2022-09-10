@@ -6,12 +6,14 @@
     vertical-align: middle;
     height: calc(100vh - 160px);
     border-radius: 25px;
+    font: arial;
 
   }
 
   .label {
     padding: 5px;
     display: block;
+    font: bold;
   }
 
   Form {
