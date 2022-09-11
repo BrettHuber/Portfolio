@@ -15,7 +15,7 @@
 } */
 .headshot {
     /* margin-top: 20px; */
-    width: 40%;
+    width: 30%;
     align-items: center;
     vertical-align: middle;
     margin: 20px;
@@ -32,9 +32,33 @@
     color: white;
 }
 
+hr {
+    border: none;
+    border-top: 1px dotted rgb(255, 255, 255);
+    color:#fff;
+    background-color:#fff;
+    height: 1px;
+    width: 40%;
+}
 
-@media screen and (max-width: 990px) {
+p {
+    color: white;
+}
+
+@media screen and (max-width: 1005px) {
     .headshot {
         width: 80%;
+    }
+    hr {
+        border: none;
+        border-top: 1px dotted rgb(255, 255, 255);
+        color:#fff;
+        background-color:#fff;
+        height: 1px;
+        width: 80%;
+    }
+
+    p {
+        color: white;
     }
 }
