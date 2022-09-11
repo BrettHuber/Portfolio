@@ -1,4 +1,4 @@
-.home-container {
+.skills-container {
     /* background-image:  url("greenBG.jpg"); */
     /*opacity: 0.6;*/
     background-repeat: no-repeat;
@@ -8,28 +8,6 @@
     /* flex-direction: column; */
     align-items: center;
     /* vertical-align: middle; */
-}
-
-/* .textCenter {
-    align-items: center; 
-} */
-.headshot {
-    /* margin-top: 20px; */
-    width: 30%;
-    align-items: center;
-    vertical-align: middle;
-    margin: 20px;
-    border: 4px solid #63d471;
-    border-radius: 500px;
-    /* box-shadow:5px 5px 5px #63d471;  */
-}
-
-.homeName {
-    color: white;
-}
-
-.homeAttributes {
-    color: white;
 }
 
 hr {
@@ -45,19 +23,9 @@ p {
     color: white;
 }
 
-.resumeButton {
-    border: 1px solid white;
-    border-radius: 5px;
-    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
-    color: white;
-    padding: 15px 32px;
-
-}
 
 @media screen and (max-width: 1005px) {
-    .headshot {
-        width: 80%;
-    }
+
     hr {
         border: none;
         border-top: 1px dotted rgb(255, 255, 255);

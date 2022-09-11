@@ -24,11 +24,8 @@ class Home extends Component {
                     <img src =  'images/headshot-bw.png' className = "headshot" alt = "Brett"></img>
                     <h1 className= "homeName">Hey. I'm Brett Huber</h1>
                     <h4 className="homeAttributes">Computing Security Student - Programmer - Security Analyst</h4>
-                    <hr></hr>
-                    <p>Python | Java | HTML/CSS | JavaScript | C | C++ | SQL</p>
                     <button className = "resumeButton" onClick = {this.downloadClick}>Download Resume</button>
             </div>
-         
         );
     }
 }
