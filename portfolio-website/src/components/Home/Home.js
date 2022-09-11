@@ -6,12 +6,12 @@ import './Home.css'
 class Home extends Component {
 
     downloadClick = () => {
-        fetch('Brett_AWS_No_Column.pdf').then(response => {
+        fetch('Brett_Huber_Resume.pdf').then(response => {
             response.blob().then(blob => {
                 const fileURL = window.URL.createObjectURL(blob);
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'Brett_AWS_No_Column.pdf';
+                alink.download = 'Brett_Huber_Resume.pdf';
                 alink.click();
             })
             
@@ -26,7 +26,7 @@ class Home extends Component {
                     <h4 className="homeAttributes">Computing Security Student - Programmer - Security Analyst</h4>
                     <hr></hr>
                     <p>Python | Java | HTML/CSS | JavaScript | C | C++ | SQL</p>
-                    <button onLoadError={console.error} onClick = {this.downloadClick}>Download Resume</button>
+                    <button className = "resumeButton" onClick = {this.downloadClick}>Download Resume</button>
             </div>
          
         );

@@ -45,6 +45,15 @@ p {
     color: white;
 }
 
+.resumeButton {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+    color: white;
+    padding: 5px 32px;
+
+}
+
 @media screen and (max-width: 1005px) {
     .headshot {
         width: 80%;
