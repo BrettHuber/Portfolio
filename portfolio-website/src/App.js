@@ -2,11 +2,11 @@ import logo from './logo.svg';
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import './App.css';
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import Skills from './components/Skills/Skills';
+import Resume from './components/Resume/Resume';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
@@ -14,11 +14,16 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      <Home /> 
-      {/* <Skills /> */}
-      <Footer />
-      {/* Router */}
+    <Navbar />
+    <BrowserRouter><Routes>
+      <Route path = "/" element = {<Home />} />
+      <Route path = "/resume" element = {<Resume />} />
+      <Route path = "/contact" element = {<Contact />} />
+    </Routes>
+    </BrowserRouter>
+    {/* <Home /> */}
+    {/* <Resume />    */}
+    <Footer />
     </div>
   );
 }
