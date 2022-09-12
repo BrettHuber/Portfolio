@@ -1,0 +1,56 @@
+.about-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+}
+
+.aboutLabel {
+    color:white;
+}
+
+.skillsLabel {
+    color:white;
+}
+
+.photo {
+    width: 30%;
+    border: 1px solid lightgreen;
+    margin-left: 70px;
+    margin-right: 70px;
+    float: left;
+}
+
+.blurb {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+@media screen and (max-width: 1005px) {
+    .about-container {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 110vh;
+        align-items: center;
+    }
+    
+    .aboutLabel {
+        color:white;
+    }
+    
+    .skillsLabel {
+        color:white;
+    }
+    
+    .photo {
+        width: 30%;
+        border: 1px solid lightgreen;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    
+    .blurb {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    
+}

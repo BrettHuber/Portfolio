@@ -4,11 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    /* padding-bottom:140px; */
-    /* display: flex; */
-    /* flex-direction: column; */
     align-items: center;
-    /* vertical-align: middle; */
 }
 
 /* .textCenter {
@@ -56,6 +52,16 @@ p {
 }
 
 @media screen and (max-width: 1005px) {
+    
+    .home-container {
+        /* background-image:  url("greenBG.jpg"); */
+        /*opacity: 0.6;*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        align-items: center;
+    }
+
     .headshot {
         width: 75%;
     }

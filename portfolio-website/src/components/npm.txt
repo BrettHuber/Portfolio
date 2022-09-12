@@ -1,0 +1,2 @@
+npm i emailjs-com semantic-ui-react semantic-ui-css sweetalert2
+
