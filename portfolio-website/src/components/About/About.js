@@ -6,28 +6,28 @@ import './About.css'
 class About extends Component {
     render() {
         return (
-            <div className="about-container">
-                    <h1 className= "aboutLabel">About Me</h1>
-                    
+            <section className="about-container">
+                    <h1 className= "aboutLabel"><u>About Me</u></h1>
+                        
                     <img className = "photo" src = "images/Web-Portrait.jpg"></img>
-                    
+                        
                     <div className = 'blurbDiv'><h3 className= "skillsLabel">Blurb</h3>
                         <p className = 'blurb'>
-                            Welcome to my website! So here is some information about me. My name is Brett Huber. I'm a 2nd/3rd year Computing Security student on the BS/MS track at Rochester Institute of Technology. 
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to my website! So here is some information about me. My name is Brett Huber. I'm currently attending 2nd/3rd year Computing Security student on the BS/MS track at Rochester Institute of Technology with expected graduation of 2025. 
                             I have been involved in computer science since I was in middle school. 
-                            I was accepted into Passaic County Technical Vocational School and completed a computer science concentration for four years, covering a wide variety of topic including but not limited to databases, scripts, and web development. 
+                            I was accepted into Passaic County Technical Vocational School and completed a computer science concentration for four years, covering a wide variety of topics including but not limited to databases, scripts, and web development. 
                             Due to a deep love of many different computing fields, especially security, I have completed and worked on many projects using a wide variety of different skills such as software and web development, different operating systems, security protocols, and more.
-                            While I love technology, I am also big fan of the outdoors and nature. Spending time in nature provides me with a cathartic experience that clears my mind.
+                            Check the projects page for more information. While I love technology, I am also big fan of the outdoors and nature. Whether I am playing a sport or running down trails, I am truly able to immerse myself in nature. Spending time in nature provides me with a cathartic experience that clears my mind.
                             Overall, I am a technology and outdoor oriented person with a significant drive for learning.
                         </p>
                     </div>
-                    
+                        
                     <h3 className= "skillsLabel">Hobbies</h3>
-                        <hr></hr>
-                        <p className = "list">Programming | Security Scripting | Projects | Web Development | Soldering</p>
-                        <hr></hr>
-                        <p className = "list">Biking (Road & Mountain) | Boxing | Camping | Fishing | Climbing (Rock & Ice) | Fencing | Soccer | Curling | Volleyball</p>
-                    
+                    <hr></hr>
+                    <p className = "list">Programming | Security Scripting | Projects | Web Development | Soldering</p>
+                    <hr></hr>
+                    <p className = "list">Biking (Road & Mountain) | Boxing | Camping | Fishing | Climbing (Rock & Ice) | Fencing | Soccer | Curling | Volleyball</p>
+                        
                     <br></br>
                     <br></br>
 
@@ -40,15 +40,14 @@ class About extends Component {
                     <br></br>
                     <br></br>
 
-                    <div><h3 className= "skillsLabel">Skills</h3>
-                        <hr></hr>
-                        <p className = "list">Python | Java | HTML/CSS | JavaScript | C | C++ | SQL</p>
-                        <hr></hr>
-                        <p className = "list">ReactJS | Wireshark | Git/Github | VMware | Nmap | Arduino | Cisco IOS | Adobe Photoshop | Soldering Iron</p>
-                        <hr></hr>
-                        <p className = "list">Microsoft Windows | Kali | Ubuntu</p>
-                    </div>
-            </div>
+                    <h3 className= "skillsLabel">Skills</h3>
+                    <hr></hr>
+                    <p className = "list">Python | Java | HTML/CSS | JavaScript | C | C++ | SQL</p>
+                    <hr></hr>
+                    <p className = "list">ReactJS | Wireshark | Git/Github | VMware | Nmap | Arduino | Cisco IOS | Adobe Photoshop | Soldering Iron</p>
+                    <hr></hr>
+                    <p className = "list">Microsoft Windows | Kali | Ubuntu</p>   
+            </section>
         );
     }
 }

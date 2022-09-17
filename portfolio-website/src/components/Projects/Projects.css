@@ -1,0 +1,103 @@
+.projects-container {
+    /* background-image:  url("greenBG.jpg"); */
+    /*opacity: 0.6;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    align-items: center;
+}
+
+
+.projectHeader {
+    color: white;
+}
+
+
+p {
+    color: white;
+}
+
+.pythonKeylogger {
+    padding: 35px;
+    display:flex;
+    /* align-items:center; */
+    color:white;
+    border: 1px dashed green;
+    border-left:0px;
+    border-right:0px;
+}
+
+.projectVideo {
+    width: 50%;
+    height: 50vh;
+    align-items: left;
+}
+
+.rubberDucky {
+    padding: 35px;
+    display:flex;
+    /* align-items:center; */
+    color:white;
+    border: 1px dashed green;
+    border-left:0px;
+    border-right:0px;
+}
+
+.ducky-pic {
+    width:50%;
+    align-items: left;
+}
+
+.projectBullets {
+    text-align: left;
+}
+
+.skillButtons {
+    margin-left: 5px; 
+}
+
+.bullet:hover, .projectName:hover, .projectHeader:hover {
+    color:lightgreen;
+    font-weight:bold;
+}
+
+@media screen and (max-width: 1005px) {
+    
+    .projects-container {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220vh;
+        align-items: center;
+    }
+
+    .pythonKeylogger, .rubberDucky {
+        display: block;
+        padding: 35px;
+        /* align-items:center; */
+        color:white;
+        border: 1px dashed green;
+        border-left:0px;
+        border-right:0px;
+    }
+
+    .projectVideo {
+        width: 100%;
+        height: 40vh;
+    }
+    
+    
+    .ducky-pic {
+        width:100%;
+        margin: 15x;
+        align-items: left;
+    }
+
+    p {
+        color: white;
+    }
+
+    .bullet:hover, .projectName:hover, .projectHeader:hover {
+        color:lightgreen;
+        font-weight:bold;
+    }
+}

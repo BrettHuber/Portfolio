@@ -6,10 +6,10 @@ import './Resume.css'
 class Resume extends Component {
     render() {
         return (
-            <div className="resume-container">
-                    <h1>My Resume</h1>
-                    <iframe src="Brett_Huber_Resume.pdf"></iframe>
-            </div>
+            <section className="resume-container">
+                    <h1><u>My Resume</u></h1>
+                    <iframe title = "Resume Frame" className = "resumeFrame" src="Brett_Huber_Resume.pdf"></iframe>
+            </section>
         );
     }
 }

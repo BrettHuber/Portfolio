@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { MenuItems } from "./MenuItems"
-import ReactDOM from 'react-dom'
 import './Navbar.css'
-import { Button } from "../Button/Button"
 
 //ReactDOM.render(element, document.body)
 

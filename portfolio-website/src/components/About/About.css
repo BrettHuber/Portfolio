@@ -12,17 +12,10 @@
     color:white;
 }
 
-.list:hover {
+.list:hover, .blurb:hover, .skillsLabel:hover, .aboutLabel:hover {
     color:lightgreen;
     font-weight:bold;
 }
-
-.skillsLabel:hover {
-    color:lightgreen;
-    font-weight:bold;
-}
-
-
 
 .photo {
     width: 30%;
@@ -36,6 +29,7 @@
 .blurb {
     margin-left: 70px;
     margin-right: 70px;
+    text-align: left;
 }
 
 
@@ -45,6 +39,15 @@
     margin: 5px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px dotted rgb(255, 255, 255);
+    color:#fff;
+    background-color:#fff;
+    height: 1px;
+    width: 50%;
 }
 
 @media screen and (max-width: 1005px) {
@@ -63,14 +66,9 @@
         color:white;
     }
 
-    .list:hover {
+    .list:hover, .blurb:hover, .skillsLabel:hover, .aboutLabel:hover {
         color:lightgreen;
         font-weight:bold;
-    }
-    
-    .skillsLabel:hover {
-        color:lightgreen;
-        font-weight: bold;
     }
     
     .photo {
@@ -87,6 +85,15 @@
     }
     .act-images {
         width: 5%;
+    }
+
+    hr {
+        border: none;
+        border-top: 1px dotted rgb(255, 255, 255);
+        color:#fff;
+        background-color:#fff;
+        height: 1px;
+        width: 80%;
     }
     
 }

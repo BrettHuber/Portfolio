@@ -1,15 +1,17 @@
 .home-container {
-    /* background-image:  url("greenBG.jpg"); */
-    /*opacity: 0.6;*/
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     align-items: center;
 }
+.home-center {
+    align-items:center;
+    justify-content:center;
+    margin: 0;
+    top: 50%;
+    transform: translateY(+10%);
+}
 
-/* .textCenter {
-    align-items: center; 
-} */
 .headshot {
     /* margin-top: 20px; */
     width: 30%;
@@ -29,14 +31,6 @@
     color: white;
 }
 
-hr {
-    border: none;
-    border-top: 1px dotted rgb(255, 255, 255);
-    color:#fff;
-    background-color:#fff;
-    height: 1px;
-    width: 40%;
-}
 
 p {
     color: white;
@@ -48,14 +42,22 @@ p {
     background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
     color: white;
     padding: 15px 32px;
-
 }
+
+
+.resumeButton:hover {
+    cursor: pointer;
+}
+
+.homeName:hover, .homeAttributes:hover {
+    color:lightgreen;
+    font-weight:bold;
+}
+
 
 @media screen and (max-width: 1005px) {
     
     .home-container {
-        /* background-image:  url("greenBG.jpg"); */
-        /*opacity: 0.6;*/
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
@@ -65,16 +67,33 @@ p {
     .headshot {
         width: 75%;
     }
-    hr {
-        border: none;
-        border-top: 1px dotted rgb(255, 255, 255);
-        color:#fff;
-        background-color:#fff;
-        height: 1px;
-        width: 80%;
-    }
+
 
     p {
         color: white;
+    }
+
+    .home-center {
+        align-items:center;
+        justify-content:center;
+        vertical-align: middle;
+
+    }
+
+    .resumeButton {
+        border: 1px solid white;
+        border-radius: 5px;
+        background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+        color: white;
+        padding: 15px 32px;    
+    }
+
+    .resumeButton:hover {
+        cursor: pointer;
+    }
+
+    .homeName:hover, .homeAttributes:hover {
+        color:lightgreen;
+        font-weight:bold;
     }
 }

@@ -20,13 +20,14 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="home-container">
-                <br></br>
-                <img src =  'images/headshot-bw.png' className = "headshot" alt = "Brett"></img>
-                <h1 className= "homeName">Hey. I'm Brett Huber</h1>
-                <h4 className="homeAttributes">Computing Security Student - Programmer - Security Analyst</h4>
-                <button className = "resumeButton" onClick = {this.downloadClick}>Download Resume</button>
-            </div>
+            <section className="home-container">
+                <div className ='home-center'>
+                    <img src =  'images/headshot-bw.png' className = "headshot" alt = "Brett"></img>
+                    <h1 className= "homeName">Hey. I'm Brett Huber</h1>
+                    <h4 className="homeAttributes">Computing Security Student - Programmer - Aspiring Security Analyst / Penetration Tester</h4>
+                    <button className = "resumeButton" onClick = {this.downloadClick}>Download Resume</button>
+                </div>
+            </section>
         );
     }
 }

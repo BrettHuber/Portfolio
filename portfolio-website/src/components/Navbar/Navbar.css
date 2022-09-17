@@ -125,30 +125,4 @@
         font-size: 2rem;
     }
 
-    /*
-    
-    .nav-links-mobile {
-        display: block;
-        text-align: center;
-        padding: 1.5rem;
-        margin: 2rem auto;
-        border-radius: 4px;
-        width: 60%;
-        background: #90ee90;
-        text-decoration: none;
-        color: #fff;
-        font-size: 1.5rem;
-    }
-
-    .nav-links-mobile:hover {
-        background: #fff;
-        color: #006400;
-        transition: 250ms;
-    }
-
-    Button {
-        display: none;
-    }
-    */
-
 }
