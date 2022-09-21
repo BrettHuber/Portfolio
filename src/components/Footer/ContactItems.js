@@ -9,7 +9,7 @@ export const ContactItems = [
 
     {
         title: 'Phone',
-        display: '+1 (973) 256-8278',
+        display: '+1 (973) 356-8278',
         url: 'tel:9733568278',
         icon: 'images/iconmonstr-phone.png',
         className: 'contact-links'
