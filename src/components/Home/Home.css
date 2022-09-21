@@ -3,6 +3,7 @@
     background-size: cover;
     height: 100%;
     align-items: center;
+    margin-bottom: 80px;
 }
 .home-center {
     align-items:center;
@@ -64,6 +65,7 @@ p {
         background-size: cover;
         height: 100%;
         align-items: center;
+        margin-bottom: 80px;
     }
 
     .headshot {
