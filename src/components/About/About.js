@@ -42,11 +42,11 @@ class About extends Component {
 
                     <h3 className= "skillsLabel">Skills</h3>
                     <hr></hr>
-                    <p className = "list">Python | Java | HTML/CSS | JavaScript | C | C++ | SQL</p>
+                    <p className = "list">Python | Java | HTML/CSS | JavaScript | C | C++ | SQL | Digispark / Ducky Scripts | LaTeX</p>
                     <hr></hr>
-                    <p className = "list">ReactJS | Wireshark | Git/Github | VMware | Nmap | Arduino | Cisco IOS | Adobe Photoshop | Soldering Iron</p>
+                    <p className = "list">ReactJS | Wireshark | Git/Github | VS Code | Powershell | VMware Workstation Pro | Nmap | Arduino | Cisco IOS | Adobe Photoshop | Soldering Tools</p>
                     <hr></hr>
-                    <p className = "list">Microsoft Windows | Kali | Ubuntu</p>   
+                    <p className = "list">Microsoft Windows | Kali Linux | Ubuntu Linux</p>   
             </section>
         );
     }

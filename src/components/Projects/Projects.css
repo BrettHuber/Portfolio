@@ -1,10 +1,9 @@
 .projects-container {
-    /* background-image:  url("greenBG.jpg"); */
     /*opacity: 0.6;*/
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 150vh;
+    /* height: 150vh; */
     align-items: center;
+    height: 100%;
+
 }
 
 
@@ -58,7 +57,6 @@ p {
 
 .bullet:hover, .projectName:hover, .projectHeader:hover {
     color:lightgreen;
-    font-weight:bold;
 }
 
 @media screen and (max-width: 1005px) {
@@ -66,7 +64,7 @@ p {
     .projects-container {
         background-repeat: no-repeat;
         background-size: cover;
-        height: 220vh;
+        height: 100%;
         align-items: center;
     }
 
@@ -98,6 +96,5 @@ p {
 
     .bullet:hover, .projectName:hover, .projectHeader:hover {
         color:lightgreen;
-        font-weight:bold;
     }
 }

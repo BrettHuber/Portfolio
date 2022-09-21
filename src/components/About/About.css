@@ -1,7 +1,7 @@
 .about-container {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 105vh;
+    height: 100%;
 }
 
 .aboutLabel {
@@ -14,7 +14,6 @@
 
 .list:hover, .blurb:hover, .skillsLabel:hover, .aboutLabel:hover {
     color:lightgreen;
-    font-weight:bold;
 }
 
 .photo {
@@ -54,7 +53,7 @@ hr {
     .about-container {
         background-repeat: no-repeat;
         background-size: cover;
-        height: 185vh;
+        height: 100%;
         align-items: center;
     }
     
@@ -68,7 +67,6 @@ hr {
 
     .list:hover, .blurb:hover, .skillsLabel:hover, .aboutLabel:hover {
         color:lightgreen;
-        font-weight:bold;
     }
     
     .photo {

@@ -4,7 +4,6 @@ import './Home.css'
 
 
 class Home extends Component {
-
     downloadClick = () => {
         fetch('Brett_Huber_Resume.pdf').then(response => {
             response.blob().then(blob => {

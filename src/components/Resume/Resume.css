@@ -3,7 +3,7 @@
     /*opacity: 0.6;*/
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     /* display: flex; */
     /* flex-direction: column; */
     align-items: center;
@@ -16,9 +16,8 @@ p, h1 {
 
 .resumeFrame {
     width:80%;
-    height:85vh;
+    height:80vh;
     border: 4px solid #63d471;
-
 }
 
 
@@ -26,5 +25,11 @@ p, h1 {
 
     p {
         color: white;
+    }
+
+    .resumeFrame {
+        width:80%;
+        height:70vh;
+        border: 4px solid #63d471;
     }
 }
