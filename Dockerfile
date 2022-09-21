@@ -12,9 +12,13 @@ COPY package.json ./
 COPY package-lock.json ./
 RUN npm install --silent
 RUN npm install react-scripts@3.4.1 -g --silent
+RUN chown -R node /app/node_modules
 
 # add app
 COPY . ./
 ENV PORT=8080
+
+USER node
+
 # start app
 CMD ["npm", "start"]
