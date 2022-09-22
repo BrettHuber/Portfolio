@@ -3,9 +3,13 @@
     background-size: cover;
     height: 100%;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
+    justify-content:center;
+    margin: 0;
+    top: 50%;
+    transform: translateY(+10%);
 }
-.home-center {
+/* .home-center {
     align-items:center;
     justify-content:center;
     margin: 0;
@@ -13,7 +17,7 @@
     transform: translateY(+10%);
     height: 100%;
 
-}
+} */
 
 .headshot {
     /* margin-top: 20px; */
@@ -66,6 +70,10 @@ p {
         height: 100%;
         align-items: center;
         margin-bottom: 80px;
+        justify-content:center;
+        margin: 0;
+        top: 50%;
+        transform: translateY(+10%);
     }
 
     .headshot {
@@ -77,12 +85,12 @@ p {
         color: white;
     }
 
-    .home-center {
+    /* .home-center {
         align-items:center;
         justify-content:center;
         vertical-align: middle;
 
-    }
+    } */
 
     .resumeButton {
         border: 1px solid white;
