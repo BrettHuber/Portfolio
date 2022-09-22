@@ -8,7 +8,7 @@ class Resume extends Component {
         return (
             <section className="resume-container">
                     <h1><u>My Resume</u></h1>
-                    <iframe title = "Resume Frame" className = "resumeFrame" src="Brett_Huber_Resume.pdf"></iframe>
+                    <iframe title = "Resume Frame" className = "resumeFrame" src="https://csh.rit.edu/~god/resume.pdf"></iframe>
             </section>
         );
     }
